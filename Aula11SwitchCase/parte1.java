@@ -27,11 +27,11 @@ public class parte1 {
 
             case "sub":
                 System.out.printf("%.2f - %.2f = %.2f\n", numero1, numero2, numero1 - numero2);
-                break; 
+                break;
 
             case "mult":
                 System.out.printf("%.2f * %.2f = %.2f\n", numero1, numero2, numero1 * numero2);
-                break; 
+                break;
 
             case "div":
                 if (numero2 == 0) {
@@ -39,7 +39,7 @@ public class parte1 {
                 } else {
                     System.out.printf("%.2f / %.2f = %.2f\n", numero1, numero2, numero1 / numero2);
                 }
-                break; 
+                break;
 
             default:
                 System.out.printf("\"%s\" não é uma operação suportada!\n", operacao);
